@@ -4,16 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Curtain Call</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Meddon" rel="stylesheet">
     <!-- JQuery CDN -->
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Foundation CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
+    <!-- Font Awesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- File CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <!-- the trigger -->
+    <div class="row" id="header">
+        <h1 style="color:white" id="header"><i class="fas fa-chess-knight"></i>Tonberry</h1>
+    </div>
     <div class="curtain-menu-button" data-curtain-menu-button>
         <div class="curtain-menu-button-toggle">
             <div class="bar1"></div>
@@ -43,36 +50,24 @@
                 </label>
             </div>
             <div class="row columns">
-                <label>Property Status
+                <label>Adversary Name
+                    <input type="text" name="keyword" placeholder="Adversary">
+                </label>
+            </div>
+            <div class="row columns">
+                <label>Enemy Skill Level
                     <select name="status" type="text">
-                        <option>Any</option>
-                        <option value="rent">Rent</option>
-                        <option value="buy">Buy</option>
+                        <option>Select</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Hard">Hard</option>
                     </select>
                 </label>
             </div>
             <div class="row columns">
-                <label>Property Type
-                    <select name="status" type="text">
-                        <option>Any</option>
-                        <option value="office">Office</option>
-                        <option value="building">Building</option>
-                    </select>
+                <label>Game of Origin
+                    <input type="text" name="location" placeholder="Game">
                 </label>
-            </div>
-            <div class="row columns">
-                <label>Location
-                    <input type="text" name="location" placeholder="Any">
-                </label>
-            </div>
-            <div class="row">
-                <label class="columns small-12">Price</label>
-                <div class="columns small-6">
-                    <input type="number" min="0" name="min" placeholder="Min">
-                </div>
-                <div class="columns small-6">
-                    <input type="number" min="0" name="max" placeholder="Max">
-                </div>
             </div>
             <button type="button" class="primary button expanded search-button">
                 Search

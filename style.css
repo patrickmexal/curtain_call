@@ -1,4 +1,10 @@
 /* Curtain Section */
+#header {
+  font-family: "Meddon", cursive;
+  margin:10px;
+  margin-bottom: 0px;
+}
+
 .curtain-menu {
   z-index: 2;
   position: relative;
