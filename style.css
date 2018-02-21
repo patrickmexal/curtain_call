@@ -196,7 +196,9 @@ body {
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
   color: #fefefe;
-  margin-top: 28px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 0 -5px 5px -5px white;
 }
 
 .translucent-form-overlay .columns.row {
@@ -230,24 +232,46 @@ footer {
   padding: 10px;
   color: white;
   height: 300px;
+  display: block;
 }
-
+ 
+h4 {
+  text-align: left;
+}
 #facebook {
   padding: 3px;
   font-size: 5em;
+  color: #3b5998;
 }
 
 #instagram {
   padding: 3px;
   font-size: 5em;
+  color: #fb3983;
 }
 
 #twitter {
   padding: 3px;
   font-size: 5em;
+  color: #00aced;
 }
 
 #github {
   padding: 3px;
   font-size: 5em;
+  color: #eeeeee;
 }
+
+#mail {
+  align-self: center;
+  padding: 3px;
+  font-size: 5em;
+  color: #eeeeee;
+}
+
+#shop {
+  padding: 3px;
+  font-size: 5em;
+  color: #eeeeee;
+}
+
