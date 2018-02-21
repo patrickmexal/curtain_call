@@ -3,7 +3,6 @@
   color: white;
   font-family: "Meddon", cursive;
   margin:10px;
-  margin-bottom: 0px;
 }
 
 .curtain-menu {
@@ -32,7 +31,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   z-index: 3;
   top: 0;
@@ -103,7 +102,7 @@
 }
 
 .curtain-menu .curtain:nth-child(odd) {
-  background: linear-gradient(black, darkblue);
+  background: linear-gradient(#000000, #0a2c63);
 }
 
 .curtain-menu-button {
@@ -226,9 +225,29 @@ body {
 
 /* Footer */
 footer {
-  margin-left: 140px;
+  /*margin-left: 140px;*/
   margin-top: 50px;
   padding: 10px;
   color: white;
   height: 300px;
+}
+
+#facebook {
+  padding: 3px;
+  font-size: 5em;
+}
+
+#instagram {
+  padding: 3px;
+  font-size: 5em;
+}
+
+#twitter {
+  padding: 3px;
+  font-size: 5em;
+}
+
+#github {
+  padding: 3px;
+  font-size: 5em;
 }
