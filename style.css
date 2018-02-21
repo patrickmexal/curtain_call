@@ -1,5 +1,6 @@
 /* Curtain Section */
 #header {
+  color: white;
   font-family: "Meddon", cursive;
   margin:10px;
   margin-bottom: 0px;
@@ -223,3 +224,11 @@ body {
   color: #8a8a8a;
 }
 
+/* Footer */
+footer {
+  margin-left: 140px;
+  margin-top: 50px;
+  padding: 10px;
+  color: white;
+  height: 300px;
+}
