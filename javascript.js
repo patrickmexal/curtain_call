@@ -1,4 +1,4 @@
-$('[data-curtain-menu-button]').click(function(){
-  $('body').toggleClass('curtain-menu-open');
-})
+$("[data-menu-underline-from-center] a").addClass("underline-from-center");
+
+
 
