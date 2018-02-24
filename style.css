@@ -111,11 +111,11 @@ body {
     /*margin: 2px;*/
 }
 #keyTitle {
-    padding-left: 20px;
-    /*font-family: 'Zilla Slab Highlight', cursive;*/
+    /*padding-left: 20px;
+    font-family: 'Zilla Slab Highlight', cursive;*/
 }
-#keyValues {
-    /*font-family: 'Zilla Slab Highlight', cursive;*/
+#keyValue/*s {
+    font-family: 'Zilla Slab Highlight', cursive;*/
     list-style: none;
 }
 span {
