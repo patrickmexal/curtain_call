@@ -112,9 +112,15 @@ body {
 }
 #keyTitle {
     padding-left: 20px;
+    /*font-family: 'Zilla Slab Highlight', cursive;*/
 }
 #keyValues {
+    /*font-family: 'Zilla Slab Highlight', cursive;*/
     list-style: none;
+}
+span {
+    font-size: 1.3em;
+    font-weight: bolder;
 }
 /* Footer */
 
