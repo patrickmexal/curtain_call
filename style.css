@@ -127,38 +127,38 @@ h4 {
 }
 
 #facebook {
-    padding: 3px;
+    padding: 5px;
     font-size: 5em;
     color: #3b5998;
 }
 
 #instagram {
-    padding: 3px;
+    padding: 5px;
     font-size: 5em;
     color: #fb3983;
 }
 
 #twitter {
-    padding: 3px;
+    padding: 5px;
     font-size: 5em;
     color: #00aced;
 }
 
 #github {
-    padding: 3px;
+    padding: 5px;
     font-size: 5em;
     color: #eeeeee;
 }
 
 #mail {
     align-self: center;
-    padding: 3px;
+    padding: 5px;
     font-size: 5em;
     color: #eeeeee;
 }
 
 #shop {
-    padding: 3px;
+    padding: 5px;
     font-size: 5em;
     color: #eeeeee;
 }
@@ -180,4 +180,8 @@ input[type=text]:focus, textarea:focus {
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
   border: 2px solid rgba(81, 203, 238, 1);
+}
+/*Hover effects on glyphs*/
+#facebook:hover, #instagram:hover, #twitter:hover, #github:hover, #mail:hover, #shop:hover {
+    -webkit-transform: scale(1.3);
 }
