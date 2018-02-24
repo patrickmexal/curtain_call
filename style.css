@@ -103,13 +103,19 @@ body {
     max-width: 600px;
     color: white;
     margin-top: 10px;
+    margin-bottom: 30px;
     background-color: rgba(54, 54, 54, 0.8);
     padding: 20px;
     box-shadow: 0 -5px 5px -5px white;
+    border-radius: 2px;
     /*margin: 2px;*/
 }
-
-
+#keyTitle {
+    padding-left: 20px;
+}
+#keyValues {
+    list-style: none;
+}
 /* Footer */
 
 footer {
@@ -161,6 +167,9 @@ h4 {
     padding: 5px;
     font-size: 5em;
     color: #eeeeee;
+}
+#store {
+    margin-bottom: 20px;
 }
 /*Blue Highlight on Text Input*/
 
