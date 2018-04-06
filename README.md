@@ -1,1 +1,1 @@
-# curtain_call
+This is non-functioning version of a full-stack application called Tonberry 1.0 built by myself and my development partner Cody Vanasse @github: https://github.com/wyildd. I built this user interface using Foundation, and think it does a solid job of embodying what we wished to convey with our gaming application.
